@@ -1,17 +1,14 @@
 
 /**
- * Write a description of class Animal here.
+ * Single Inheritance.
  *
  * @author (your name)
  * @version (a version number or a date)
  */
 public class Animal
 {
-    public int legs;
-    
-    public void display(){
-        System.out.println(legs);
+    public void eats()
+    {
+        System.out.println("It is eating food.");
     }
-    
 }
-
