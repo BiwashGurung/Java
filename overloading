@@ -1,0 +1,16 @@
+class Mltply {
+ void mul(int a, int b) {
+  System.out.println("Sum of two=" + (a * b));
+ }
+
+ void mul(int a, int b, int c) {
+  System.out.println("Sum of three=" + (a * b * c));
+ }
+}
+class Polymorphism {
+ public static void main(String args[]) {
+  Mltply m = new Mltply();
+  m.mul(6, 10);
+  m.mul(10, 6, 5);
+ }
+}
